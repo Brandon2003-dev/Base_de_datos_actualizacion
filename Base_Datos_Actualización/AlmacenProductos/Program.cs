@@ -217,7 +217,7 @@ while (comprobar)
             break;
 
         default:
-            Console.WriteLine("\nOpcion incorrecta");
+            Console.WriteLine("Opcion incorrecta");
             break;
 
     }
