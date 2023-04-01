@@ -28,10 +28,10 @@ public partial class AlmacenContext : DbContext
             entity.ToTable("Producto");
 
             entity.Property(e => e.Descripcion)
-                .HasMaxLength(100)
+                .HasMaxLength(75)
                 .IsUnicode(false);
             entity.Property(e => e.Nombre)
-                .HasMaxLength(50)
+                .HasMaxLength(75)
                 .IsUnicode(false);
             entity.Property(e => e.Precio).HasColumnType("decimal(6, 2)");
         });
